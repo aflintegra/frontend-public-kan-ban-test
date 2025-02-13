@@ -15,11 +15,11 @@ import { columns } from "./_components/CustomDataTable/columns";
 export default function Home() {
   const menus = [
     { icon: <House size={24} />, label: "Página inicial" },
-    { icon: <UsersThree size={24} />, label: "Gestão de pessoas" },
-    { icon: <Buildings size={24} />, label: "Gestão de empresas" },
-    { icon: <PenNib size={24} />, label: "Gestão de projetos" },
-    { icon: <Calculator size={24} />, label: "Financeiro" },
-    { icon: <Robot size={24} />, label: "Automações" },
+    { icon: <UsersThree size={24} />, label: "Menu 1" },
+    { icon: <Buildings size={24} />, label: "Menu 2" },
+    { icon: <PenNib size={24} />, label: "Menu 3" },
+    { icon: <Calculator size={24} />, label: "Menu 4" },
+    { icon: <Robot size={24} />, label: "Menu 5" },
   ];
 
   const companyData = {
